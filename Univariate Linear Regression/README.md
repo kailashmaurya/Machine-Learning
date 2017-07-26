@@ -1,5 +1,5 @@
 # Univariate Linear Regression
-<br><br>
+<br>
 Linear Regresion using one variable. Regression is a type of supervised learning algorithm which learns from labelled data or data with target variable specified for each training example.<br><br>
 The model equation in case of univariate linear regression is:<br>
 H(X) = θ-zero + θ-one\*X
@@ -23,5 +23,6 @@ Visualizing the cost function for possible values of θ-zero and θ-one we get t
 The error/cost is measured on the verticle axis and the model parameters on the other two.<br>
 Plotting a contour diagram of the same cost function we get a contour disgram like this:
 <img src="https://github.com/kailashmaurya/Machine-Learning/blob/master/Univariate%20Linear%20Regression/graphs/Cost_Contour.jpg" style="margin-right: auto; margin-left: auto;"><br><br>
-The value of error/cost on all the points lying on same countour is same. The "X" mark represents the least error point on the diagram.<br>
-This is the point where the gradient descent algorithm converges and terminates.
+The value of error/cost on all the points lying on same countour is same. The "X" mark represents the least error point on the diagram.
+This is the point where the gradient descent algorithm converges and terminates.<br>
+This is how univariate linear regression learns from the training data using gradient descent algorithm.
