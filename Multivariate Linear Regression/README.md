@@ -2,7 +2,7 @@
 <br>
 Linear Regresion using multiple variable. Regression is a type of supervised learning algorithm which learns from labelled data or data with target variable specified for each training example.<br><br>
 The model equation in case of univariate linear regression is:<br>
-H(X) = θ0 + θ1\*X1 + θ2\*X2 + ... + θn\*Xn
+H(X) = θ0 + θ1*X1 + θ2*X2 + ... + θn*Xn
 <br>
 Here H(X) is the hypothesis function, X is the input feature, θ0, θ1 ... θn are the model parameters. H(X) is a linear function and hence it is called linear regression.
 <br><br>

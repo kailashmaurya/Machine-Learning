@@ -2,7 +2,7 @@
 <br>
 Linear Regresion using one variable. Regression is a type of supervised learning algorithm which learns from labelled data or data with target variable specified for each training example.<br><br>
 The model equation in case of univariate linear regression is:<br>
-H(X) = θ-zero + θ-one\*X
+H(X) = θ-zero + θ-one*X
 <br>
 Here H(X) is the hypothesis function, X is the input feature, θ-zero and θ-one are the model parameters. H(X) is a linear function and hence it is called linear regression.
 <br><br>
