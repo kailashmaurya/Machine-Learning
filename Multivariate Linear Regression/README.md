@@ -20,4 +20,4 @@ The plot for cost vs number of iterations is as follows, You can see that the co
 When we use the trained model to predict values we get the following results:<br><br>
 &nbsp;Predicted price of a 1650 sq-ft, 3 br house (using gradient descent): $288828.6829<br><br>
 
-This is how univariate linear regression learns from the training data using gradient descent algorithm.
+This is how multivariate linear regression learns from the training data using gradient descent algorithm and normal equations.
