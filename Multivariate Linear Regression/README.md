@@ -15,7 +15,7 @@ On running main.m file the following values of model parameters are calculated:<
 &nbsp;θ1 : 68386.331827<br>
 &nbsp;θ2 : 68386.331827<br><br>
 The plot for cost vs number of iterations is as follows, You can see that the cost decreases with the number of iterations:<br>
-<img src="" style="margin-right: auto; margin-left: auto;"><br>
+<img src="https://github.com/kailashmaurya/Machine-Learning/blob/master/Multivariate%20Linear%20Regression/costVSiterations.jpg" style="margin-right: auto; margin-left: auto;"><br>
 
 When we use the trained model to predict values we get the following results:<br><br>
 &nbsp;Predicted price of a 1650 sq-ft, 3 br house (using gradient descent): $288828.6829<br><br>
