@@ -3,7 +3,9 @@
 The UCI Wine Quality dataset lists 11 chemical measurements of 4898 white wine samples as well as an overall quality per sample, as determined by wine connoisseurs.
 See winequality-white.csv, it is split into training, validation and test sets randomly in the preprocessing code. The purpose of this project is to train the linear regression model and hence use linear regression to predict wine quality from the chemical measurement features.
 <br><br>
+
 # Methods Description:
+<br>
 <ol>
 <li>data_processing</li>
 This method reads the dataset from the file winequality-white.csv and splits it into training, validation and test sets. The X sets holds the input features and the Y sets hold the output.<br><br>
