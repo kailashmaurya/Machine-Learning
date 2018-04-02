@@ -7,18 +7,18 @@ See winequality-white.csv, it is split into training, validation and test sets r
 # Methods Description:
 <br>
 <ol>
-<li>data_processing</li>
+<li>data_processing:</li>
 This method reads the dataset from the file winequality-white.csv and splits it into training, validation and test sets. The X sets holds the input features and the Y sets hold the output.<br><br>
-<li>linear_regression_noreg</li>
+<li>linear_regression_noreg:</li>
 Takes the training dataset to learn the model parameters.<br><br>
-<li>regularized_linear_regression</li>
+<li>regularized_linear_regression:</li>
 To address the challenge such as overfitting, we add regularization. I have considered L2 regularization with the linear regression model.<br>
 <img src="https://github.com/kailashmaurya/Machine-Learning/blob/master/Regularized%20Linear%20Regression/regularized.JPG" style="margin-right: auto; margin-left: auto;"><br>
 where lambda > 0 is a hyper-parameter used to control the complexity of the resulting model. When lambda = 0, the model reduces to the usual (unregularized) linear regression. 
 For lambda > 0 the objective function balances between two terms: (1 )the data-dependent quadratic loss function and (2) a function of the model parameters(hence model complexity).<br><br>
-<li>tune_lambda</li>
+<li>tune_lambda:</li>
 Trains the linear regression model using different values of lambda using thetraining dataset and then calculates the test error using the validation dataset. Hence it decides the best lambda based on which one gives the least validation error.<br><br>
-<li>test_error</li>
+<li>test_error:</li>
 Calculates the error by compairing the difference between the actual result and the predicted values.<br>
 </ol><br>
 
